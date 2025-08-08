@@ -109,7 +109,7 @@ let menu = `⎔ \`\`\`${horarioFecha}\`\`\`
 ⊜ *Pasatiempo(s)* ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
 ⊜ *Experiencia ➟* ${exp} ⚡
 ⊜ *Diamantes ➟* ${limit} 💎
-⊜ *GataCoins ➟* ${money} 🐈
+⊜ *GataCoins ➟* ${money} 
 ⊜ *Tokens ➟* ${joincount} 🪙`.trim()
       
 const buttonParamsJson = JSON.stringify({
@@ -137,7 +137,7 @@ rows: [
 const interactiveMessage = {
 body: { text: menu },
 footer: { text: wm + ` \nSi algo no funciona utilice el comando *${usedPrefix}menu2*` },
-header: { title: `⭐ *------- NUEVO MENÚ -------* ⭐\n${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.genero == 'Ocultado 🕶️' ? `🕶️` : user.genero == 'Mujer 🚺' ? `🚺` : user.genero == 'Hombre 🚹' ? `🚹` : '👤'} ${user.registered === true ? user.name : taguser} 💖*`, subtitle: "test4", hasMediaAttachment: false },
+header: { title: `⭐ *------- NUEVO MENÚ -------* ⭐\n${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.genero == 'Ocultado 🕶️' ? `🕶️` : user.genero == 'Mujer 🚺' ? `🚺` : user.genero == 'Hombre 🚹' ? `🚹` : '👤'} ${user.registered === true ? user.name : taguser} *`, subtitle: "test4", hasMediaAttachment: false },
 nativeFlowMessage: { buttons: [{ 
 name: "single_select",
 buttonParamsJson
@@ -147,7 +147,7 @@ const message = { messageContextInfo: { deviceListMetadata: {}, deviceListMetada
 await conn.relayMessage(m.chat, { viewOnceMessage: { message } }, {})
       
 } else { 
-let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.genero == 'Ocultado 🕶️' ? `🕶️` : user.genero == 'Mujer 🚺' ? `🚺` : user.genero == 'Hombre 🚹' ? `🚹` : '👤'} ${user.registered === true ? user.name : taguser} 💖*
+let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.genero == 'Ocultado 🕶️' ? `🕶️` : user.genero == 'Mujer 🚺' ? `🚺` : user.genero == 'Hombre 🚹' ? `🚹` : '👤'} ${user.registered === true ? user.name : taguser} *
 
 ⎔ \`\`\`${horarioFecha}\`\`\`
 ⎔ *${lenguajeGB['smsTotalUsers']()}* ➺ _${Object.keys(global.db.data.users).length}_ 
@@ -169,10 +169,10 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ⊜ *Pasatiempo(s)* ➺ ${user.pasatiempo === 0 ? '*Sin Registro*' : user.pasatiempo + '\n'}
 ⊜ *Experiencia ➟* ${exp} ⚡
 ⊜ *Diamantes ➟* ${limit} 💎
-⊜ *GataCoins ➟* ${money} 🐈
+⊜ *GataCoins ➟* ${money} 
 ⊜ *Tokens ➟* ${joincount} 🪙
 
-*╭━〔 🐈 OPCIONES DE MENU 🐈 〕⬣*
+*╭━〔  OPCIONES DE MENU  〕⬣*
 ┃
 ┃Ⓜ️ _*MENÚ COMPLETO*_ Ⓜ️
 ┃➺ _${usedPrefix}menucompleto | allmenu_
@@ -232,7 +232,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃➺ _${usedPrefix}cuentasgatabot | cuentasgb_
 ┃
 *╰━━━━━━━━━━━━━⬣*`.trim()
-await conn.sendFile(m.chat, gataImg, 'lp.jpg', menu, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}}) 
+await conn.sendFile(m.chat, gataImg, 'lp.jpg', menu, fkontak, false, { contextInfo: {externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' 𝗦𝘂𝗽𝗲𝗿 SxntBot  - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}}) 
 await conn.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m }) 
 //conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
 }} catch (e) {

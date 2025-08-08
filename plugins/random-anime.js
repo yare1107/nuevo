@@ -106,7 +106,7 @@ const ne = await (await fetch('https://raw.githubusercontent.com/ArugaZ/grabbed-
   const neko = await nek[Math.floor(Math.random() * nek.length)];
   if (neko == '') throw 'Error';
   conn.sendFile(m.chat, neko, 'error.jpg', `Nyaww~ 🐾💗`, m, null, fake);  
- //conn.sendButton(m.chat, '*💖 Nyaww 💖*', botname, neko, [['🔄 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄 🔄', `/${command}`]], null, null, m)   
+ //conn.sendButton(m.chat, '* Nyaww *', botname, neko, [['🔄 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄 🔄', `/${command}`]], null, null, m)   
 }
 
 if (command == 'ppcp' || command == 'ppcouple') {  
@@ -125,8 +125,8 @@ if (command == 'waifu') {
   if (!res.ok) throw await res.text();
   const json = await res.json();
   if (!json.url) throw 'Error!';
-conn.sendFile(m.chat, json.url, 'error.jpg', `_*💖 A-ara ara sempai 💖*_`, m, null, fake);  
-//conn.sendButton(m.chat, `*💖 A-ara ara sempai 💖*`, botname, json.url, [['🔄 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄 🔄', `/${command}`]], null, null, m)     
+conn.sendFile(m.chat, json.url, 'error.jpg', `_* A-ara ara sempai *_`, m, null, fake);  
+//conn.sendButton(m.chat, `* A-ara ara sempai *`, botname, json.url, [['🔄 𝐒𝐈𝐆𝐔𝐈𝐄𝐍𝐓𝐄 🔄', `/${command}`]], null, null, m)     
 }
 
   if (command == 'wpmontaña') {

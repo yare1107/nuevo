@@ -1,6 +1,6 @@
 let handler = async (m, { conn, text }) => {
 
-if (!text) return m.reply(`${lenguajeGB['smsAvisoAG']()}🐈 𝙔 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊?`)
+if (!text) return m.reply(`${lenguajeGB['smsAvisoAG']()} 𝙔 𝙀𝙇 𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀𝙇 𝙂𝙍𝙐𝙋𝙊?`)
 try{
 m.reply(`${lenguajeGB['smsAvisoEG']()}🐱 𝘾𝙍𝙀𝘼𝙉𝘿𝙊 𝙀𝙇 𝙂𝙍𝙐𝙋𝙊....`)
 let group = await conn.groupCreate(text, [m.sender])

@@ -158,7 +158,7 @@ if (command == 'ruletas' || command == 'ruleta' || command == 'suerte') {
 if (!db.data.chats[m.chat].game2) return m.reply(`${lenguajeGB['smsAvisoAG']()}𝙀𝙨𝙩𝙚 𝙟𝙪𝙚𝙜𝙤𝙨 𝙚𝙨𝙩𝙖 𝙙𝙚𝙨𝙖𝙘𝙩𝙞𝙫𝙖𝙙𝙤 𝙥𝙤𝙧 𝙡𝙤𝙨 𝙖𝙙𝙢𝙞𝙣𝙨 𝙙𝙚𝙡 𝙂𝙧𝙪𝙥𝙤 𝙨𝙞 𝙩𝙪 𝙚𝙧𝙚𝙨 𝙖𝙙𝙢𝙞𝙣𝙨 𝙮 𝙦𝙪𝙞𝙚𝙧𝙚 𝙖𝙘𝙩𝙞𝙫𝙖𝙧𝙡𝙤 𝙪𝙨𝙖𝙧: #on juegos`) 
 const date = global.db.data.users[m.sender].juegos + 10800000; //10800000 = 3 hs 
 if (new Date - global.db.data.users[m.sender].juegos < 10800000) return m.reply(`『⏰』𝙀𝙨𝙥𝙚𝙧𝙖 : ${msToTime(date - new Date())} 𝙥𝙖𝙧𝙖 𝙫𝙤𝙡𝙫𝙚𝙧 𝙖 𝙟𝙪𝙜𝙖𝙧`) 
-if (global.db.data.users[m.sender].exp < 0 || global.db.data.users[m.sender].money < 0 || global.db.data.users[m.sender].limit < 0) return m.reply(`${lenguajeGB['smsAvisoAG']()} 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 𝙍𝙀𝘾𝙐𝙍𝙎𝙊 🐈`)
+if (global.db.data.users[m.sender].exp < 0 || global.db.data.users[m.sender].money < 0 || global.db.data.users[m.sender].limit < 0) return m.reply(`${lenguajeGB['smsAvisoAG']()} 𝙉𝙊 𝙏𝙄𝙀𝙉𝙀 𝙎𝙐𝙁𝙄𝘾𝙄𝙀𝙉𝙏𝙀𝙎 𝙍𝙀𝘾𝙐𝙍𝙎𝙊 `)
 let user = global.db.data.users[m.sender]
 const prem = Math.floor(Math.random() * 3600000) 
 const exp = Math.floor(Math.random() * 8500)
@@ -455,7 +455,7 @@ if (command == 'topparejas' || command == 'top5parejas') {
 let top = `*_😍 Las 5 maravillosas parejas del grupo 😍_*
     
 *_1.- ${user(a)} 💘 ${user(b)}_* 
-Que hermosa pareja 💖, me invitan a su Boda 🛐
+Que hermosa pareja , me invitan a su Boda 🛐
 
 *_2.- ${user(c)} 💘 ${user(d)}_*  
 🌹 Ustedes se merecen lo mejor del mundo 💞

@@ -246,7 +246,7 @@ let topUsuariosCaros = []
 for (const usuario of preciosPersonajes) {
 if (!processedUsers.has(usuario.userId)) {
 let positionEmoji = topUsuariosCaros.length === 0 ? "🥇 »" : topUsuariosCaros.length === 1 ? "🥈 »" : topUsuariosCaros.length === 2 ? "🥉 »" : `${topUsuariosCaros.length + 1}.`
-topUsuariosCaros.push(`*${positionEmoji}* @${usuario.userId.split('@')[0]}\n*✪ ${usuario.personaje}* » \`\`\`${usuario.precio}\`\`\` 🐈`)
+topUsuariosCaros.push(`*${positionEmoji}* @${usuario.userId.split('@')[0]}\n*✪ ${usuario.personaje}* » \`\`\`${usuario.precio}\`\`\` `)
 processedUsers.add(usuario.userId)
 }
 if (topUsuariosCaros.length >= cantidadUsuariosRanking) break
@@ -255,7 +255,7 @@ let rankingCaros = topUsuariosCaros.length > 0 ? topUsuariosCaros.join('\n\n') :
 /*preciosPersonajes.sort((a, b) => b.precio - a.precio)
 let topUsuariosCaros = preciosPersonajes.slice(0, cantidadUsuariosRanking).map((usuario, index) => {
 let positionEmoji = index === 0 ? "🥇 »" : index === 1 ? "🥈 »" : index === 2 ? "🥉 »" : `${index + 1}.`
-return `*${positionEmoji}* @${usuario.userId.split('@')[0]}\n*✪ ${usuario.personaje}* » \`\`\`${usuario.precio}\`\`\` 🐈`
+return `*${positionEmoji}* @${usuario.userId.split('@')[0]}\n*✪ ${usuario.personaje}* » \`\`\`${usuario.precio}\`\`\` `
 }).join('\n\n')
 let rankingCaros = topUsuariosCaros ? topUsuariosCaros : 'Todavía no hay usuarios aquí'*/
 

@@ -17,7 +17,7 @@ ${profile.nickname}
 ✅️ VERIFICADO 
 ${profile.verified ? 'Sí' : 'No'}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
-💖 ${mid.smsinsta1}
+ ${mid.smsinsta1}
  ${stats.followerCount.toLocaleString()}
 ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 ❇️ ${mid.smsinsta2}
@@ -83,7 +83,7 @@ handler.command = /^(tiktokstalk|ttstalk)$/i
 handler.register = true
 export default handler
 
-/*let info = `💖 *Infórmate sobre las Novedades y recuerda tener la última versión.*\n\n💝 *Find out about what's new and remember to have the latest version.*
+/*let info = ` *Infórmate sobre las Novedades y recuerda tener la última versión.*\n\n💝 *Find out about what's new and remember to have the latest version.*
   `.trim()
   
 await conn.sendHydrated(m.chat, info, wm, null, ig, '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢', null, null, [

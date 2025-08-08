@@ -13,7 +13,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
       const file = {
         type: data.data.format.includes('mp4') ? 'video' : 'image',
         url: data.data.dl,
-        caption: `💞 *${data.data.title || "-"}*\n💖 ${lenguajeGB.tipo || 'Tipo'}: ${data.data.format.includes('mp4') ? 'Video' : 'Imagen'}`
+        caption: `💞 *${data.data.title || "-"}*\n ${lenguajeGB.tipo || 'Tipo'}: ${data.data.format.includes('mp4') ? 'Video' : 'Imagen'}`
       }
 
       await conn.sendMessage(m.chat, { [file.type]: { url: file.url }, caption: file.caption }, { quoted: m })

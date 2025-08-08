@@ -5,8 +5,8 @@ let handler = async (m, { conn, text, participants, usedPrefix, groupMetadata })
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let grupos = [grupo1, grupo2, grupo3, grupo4, grupo5, grupo6]
 let gata = [img5, img6, img7, img8, img9]
-let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer(), sourceUrl: yt }}}
+let enlace = { contextInfo: { externalAdReply: {title: wm + ' ', body: 'support group' , sourceUrl: grupos.getRandom(), thumbnail: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer() }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '𝗦𝘂𝗽𝗲𝗿 SxntBot  - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]
 
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
@@ -48,7 +48,7 @@ return await conn.reply(m.chat, `𝙉𝙊 𝙋𝙐𝙀𝘿𝙀𝙎 𝘼𝘾𝙀�
 }else{
 global.db.data.users[m.sender].pasangan = user
 //let gata2 = [img5, img6, img7, img8, img9]
-let gata5 = `🥳😻 𝙁𝙀𝙇𝙄𝘾𝙄𝙏𝘼𝘾𝙄𝙊𝙉𝙀𝙎!!! *${tu}*\n✅ 𝘿𝙀 𝙈𝘼𝙉𝙀𝙍𝘼 𝙊𝙁𝙄𝘾𝙄𝘼𝙇 𝙀𝙎𝙏𝘼𝙉 𝙀𝙉 𝙐𝙉𝘼 𝙍𝙀𝙇𝘼𝘾𝙄𝙊𝙉\n\n𝙌𝙐𝙀 𝘿𝙐𝙍𝙀 𝙋𝙊𝙍 𝙎𝙄𝙀𝙈𝙋𝙍𝙀 𝙎𝙐 𝘼𝙈𝙊𝙍 𝙔 𝙁𝙀𝙇𝙄𝘾𝙄𝘿𝘼𝘿 💖😁\n\n💝 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇𝙇𝙔 𝙏𝙃𝙀𝙔 𝘼𝙍𝙀 𝙄𝙉 𝘼 𝙍𝙀𝙇𝘼𝙏𝙄𝙊𝙉𝙎𝙃𝙄𝙋\n\n*${tu} 💞 ${yo}*\n`
+let gata5 = `🥳😻 𝙁𝙀𝙇𝙄𝘾𝙄𝙏𝘼𝘾𝙄𝙊𝙉𝙀𝙎!!! *${tu}*\n✅ 𝘿𝙀 𝙈𝘼𝙉𝙀𝙍𝘼 𝙊𝙁𝙄𝘾𝙄𝘼𝙇 𝙀𝙎𝙏𝘼𝙉 𝙀𝙉 𝙐𝙉𝘼 𝙍𝙀𝙇𝘼𝘾𝙄𝙊𝙉\n\n𝙌𝙐𝙀 𝘿𝙐𝙍𝙀 𝙋𝙊𝙍 𝙎𝙄𝙀𝙈𝙋𝙍𝙀 𝙎𝙐 𝘼𝙈𝙊𝙍 𝙔 𝙁𝙀𝙇𝙄𝘾𝙄𝘿𝘼𝘿 😁\n\n💝 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇𝙇𝙔 𝙏𝙃𝙀𝙔 𝘼𝙍𝙀 𝙄𝙉 𝘼 𝙍𝙀𝙇𝘼𝙏𝙄𝙊𝙉𝙎𝙃𝙄𝙋\n\n*${tu} 💞 ${yo}*\n`
 return await conn.sendMessage(m.chat, {image: { url: "https://telegra.ph/file/bb6768e019760933dadc7.jpg", }, caption: gata5, contextInfo: {
   mentionedJid: [m.sender],
   isForwarded: true,
@@ -82,8 +82,8 @@ let handler = async (m, { conn, text, participants, usedPrefix, groupMetadata })
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 let grupos = [grupo1, grupo2, grupo3, grupo4, grupo5, grupo6].getRandom()
 let gata = [img6, img7, img8, img9].getRandom()
-let enlace = { contextInfo: { externalAdReply: {title: wm + ' 🐈', body: 'support group' , sourceUrl: grupos, thumbnail: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer() }}}
-let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer(), sourceUrl: yt }}}
+let enlace = { contextInfo: { externalAdReply: {title: wm + ' ', body: 'support group' , sourceUrl: grupos, thumbnail: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer() }}}
+let enlace2 = { contextInfo: { externalAdReply: { showAdAttribution: true, mediaUrl: yt, mediaType: 'VIDEO', description: '', title: wm, body: '𝗦𝘂𝗽𝗲𝗿 SxntBot  - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽 ', thumbnailUrl: await(await fetch('https://telegra.ph/file/bb6768e019760933dadc7.jpg')).buffer(), sourceUrl: yt }}}
 let dos = [enlace, enlace2]
 
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
@@ -117,7 +117,7 @@ return await conn.reply(m.chat, `𝙉𝙊 𝙋𝙐𝙀𝘿𝙀𝙎 𝘼𝘾𝙀�
 
 }else{
 global.db.data.users[m.sender].pasangan = user
-let gata5 = `🥳😻 𝙁𝙀𝙇𝙄𝘾𝙄𝙏𝘼𝘾𝙄𝙊𝙉𝙀𝙎!!! *${tu}*\n✅ 𝘿𝙀 𝙈𝘼𝙉𝙀𝙍𝘼 𝙊𝙁𝙄𝘾𝙄𝘼𝙇 𝙀𝙎𝙏𝘼𝙉 𝙀𝙉 𝙐𝙉𝘼 𝙍𝙀𝙇𝘼𝘾𝙄𝙊𝙉\n\n𝙌𝙐𝙀 𝘿𝙐𝙍𝙀 𝙋𝙊𝙍 𝙎𝙄𝙀𝙈𝙋𝙍𝙀 𝙎𝙐 𝘼𝙈𝙊𝙍 𝙔 𝙁𝙀𝙇𝙄𝘾𝙄𝘿𝘼𝘿 💖😁\n\n💝 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇𝙇𝙔 𝙏𝙃𝙀𝙔 𝘼𝙍𝙀 𝙄𝙉 𝘼 𝙍𝙀𝙇𝘼𝙏𝙄𝙊𝙉𝙎𝙃𝙄𝙋\n\n*${tu} 💞 ${yo}*\n`
+let gata5 = `🥳😻 𝙁𝙀𝙇𝙄𝘾𝙄𝙏𝘼𝘾𝙄𝙊𝙉𝙀𝙎!!! *${tu}*\n✅ 𝘿𝙀 𝙈𝘼𝙉𝙀𝙍𝘼 𝙊𝙁𝙄𝘾𝙄𝘼𝙇 𝙀𝙎𝙏𝘼𝙉 𝙀𝙉 𝙐𝙉𝘼 𝙍𝙀𝙇𝘼𝘾𝙄𝙊𝙉\n\n𝙌𝙐𝙀 𝘿𝙐𝙍𝙀 𝙋𝙊𝙍 𝙎𝙄𝙀𝙈𝙋𝙍𝙀 𝙎𝙐 𝘼𝙈𝙊𝙍 𝙔 𝙁𝙀𝙇𝙄𝘾𝙄𝘿𝘼𝘿 😁\n\n💝 𝙊𝙁𝙁𝙄𝘾𝙄𝘼𝙇𝙇𝙔 𝙏𝙃𝙀𝙔 𝘼𝙍𝙀 𝙄𝙉 𝘼 𝙍𝙀𝙇𝘼𝙏𝙄𝙊𝙉𝙎𝙃𝙄𝙋\n\n*${tu} 💞 ${yo}*\n`
 return await conn.sendMessage(m.chat, {image: { url: "https://telegra.ph/file/bb6768e019760933dadc7.jpg", }, caption: gata5, contextInfo: {
   mentionedJid: [m.sender],
   isForwarded: true,

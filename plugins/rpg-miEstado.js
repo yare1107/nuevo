@@ -46,7 +46,7 @@ if (!text) return conn.sendMessage(m.chat, {text: `❖ CÓMO ESTÁ HOY? 🤔 ${u
 miEstado = text.trim()
 user.miestado = miEstado
 if (text) return //conn.sendMessage(m.chat, {text: eg + `*GENIAL!! SE HA AGREGADO UN ESTADO*\n*- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n\n` + `*❖ SU ESTADO:* ${user.miestado}`}, {quoted: fkontak})
-conn.sendButton(m.chat, eg + `*GENIAL!! SE HA AGREGADO UN ESTADO*\n*- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n\n` + `*❖ SU ESTADO:* ${user.miestado}`, wm, null, [[`🐈 MENU`, usedPrefix + 'menu']], m)
+conn.sendButton(m.chat, eg + `*GENIAL!! SE HA AGREGADO UN ESTADO*\n*- - - - - - - - - - - - - - - - - - - - - - - - - - - -*\n\n` + `*❖ SU ESTADO:* ${user.miestado}`, wm, null, [[` MENU`, usedPrefix + 'menu']], m)
 miEstado = 0
 }}
 handler.command = ['miestado'] 

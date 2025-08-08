@@ -96,7 +96,7 @@ conn.sendMessage(m.chat, t, m)
               let juegos = `${pickRandom([`${c}reto`,`${c}verdad`,`${c}topgays`,`${c}topotakus`,`${c}mates medium`,`${c}mates noob`])}`
                let juegos2 = `${pickRandom([`${c}reto`,`${c}verdad`,`${c}formarpareja`,`${c}ppt tijeras`,`${c}ppt piedra`])}`
                 let juegos3 = `${pickRandom([`${c}gay`,`${c}ppt papel`,`${c}pregunta Soy Pro en el Grupo?`,`${c}mates impossible2`,`${c}rata Yo`])}`
-                 let emojis1 = `${pickRandom([`🦁`,`🐮`,`🦖`,`👻`,`🐈`,`🐆`,`🐅`,`🐒`])}`
+                 let emojis1 = `${pickRandom([`🦁`,`🐮`,`🦖`,`👻`,``,`🐆`,`🐅`,`🐒`])}`
                   let emojis2 = `${pickRandom([`💟`,`☮️`,`☪️`,`☯️`,`🕉️`,`☸️`,`✡️`,`🔯`])}`
                    let emojis3 = `${pickRandom([`🛸`,`🚁`,`🚀`,`🧠`,`✈️`,`🚤`,`🚢`,`🚗`])}`
               

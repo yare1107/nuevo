@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 try{
 let contact, number, ofc, nombre, description, correo, lugar, enlace, biog
 let pp = gataImg
-const cat = `𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳 💖🐈
+const cat = `𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳 
 * ${bot}
 
 *---------------------*
@@ -113,7 +113,7 @@ await conn.sendFile(
         mediaType: 1,
         description: undefined,
         title: gt || '',
-        body: '😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽',
+        body: '𝗦𝘂𝗽𝗲𝗿 SxntBot  - 𝗪𝗵𝗮𝘁𝘀𝗔𝗽𝗽',
         previewType: 0,
         thumbnail: gataImg,  // debe ser Buffer
         sourceUrl: accountsgb.getRandom() || ''
@@ -157,9 +157,9 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
 conn.reply(m.chat, 'Mario.js', fkontak,  m)
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => imagen1[1]) 
-let teksbio = `𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳 💖🐈
+let teksbio = `𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳 
 *Wa.me/573136855110*
-𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 💖🐈
+Sxn7Botlite 
 *wa.me/593993684821*
 *---------------------*
 *CENTER 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳*
@@ -202,8 +202,8 @@ const listMessage = {
       const count = args[1] && args[1].length > 0 ? Math.min(99999999, Math.max(parseInt(args[1]), 1)) : !args[1] || args.length < 3 ? 1 : Math.min(1, count)
         switch (type) {
           case 'nombre':
-          await conn.reply(m.chat, `𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀𝙇 𝘽𝙊𝙏 : ${gt} 🐈`, fkontak, m)
-         // conn.reply(m.chat, "Nombre del bot : 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳 🐈", m, { contextInfo: { mentionedJid: [nowner] }})
+          await conn.reply(m.chat, `𝙉𝙊𝙈𝘽𝙍𝙀 𝘿𝙀𝙇 𝘽𝙊𝙏 : ${gt} `, fkontak, m)
+         // conn.reply(m.chat, "Nombre del bot : 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳 ", m, { contextInfo: { mentionedJid: [nowner] }})
             break
             case 'bio':
              await conn.sendFile(m.chat, gataImg.getRandom(), 'gata.jpg', teksbio, fkontak)

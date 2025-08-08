@@ -23,11 +23,11 @@ const prestarStatus = botConfig.privacy ? '' : (botConfig.prestar ? '✅ Prestar
     
 return `👤 \`[${index + 1}]\` *${v.user.name || global.db.data.users[v.user.jid]?.name || 'Anónimo' }*
 ⏱️ \`\`\`${v.uptime ? convertirMs(Date.now() - v.uptime) : "Desconocido"}\`\`\`
-🐈 ${botNumber}
+ ${botNumber}
 ${prestarStatus}`
 }).join('\n\n∵ ∵ ∵ ∵ ∵ ∵ ∵ ∵ ∵ ∵\n\n')
 
-const replyMessage = message.length === 0 ? `*NO HAY SUB BOTS DISPONIBLE. VERIFIQUE MÁS TARDE.*\n🐈 wa.me/${conn.user.jid.replace(/[^0-9]/g, '')}?text=${usedPrefix}serbot%20code` : message
+const replyMessage = message.length === 0 ? `*NO HAY SUB BOTS DISPONIBLE. VERIFIQUE MÁS TARDE.*\n wa.me/${conn.user.jid.replace(/[^0-9]/g, '')}?text=${usedPrefix}serbot%20code` : message
 const totalUsers = users.length
 
 const responseMessage = `☄️ *LISTA DE SUB-BOTS V${vsJB}*\n

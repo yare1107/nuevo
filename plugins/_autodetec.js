@@ -43,7 +43,7 @@ await this.sendMessage(m.chat, { text: lenguajeGB['smsAvisoIIG']() + mid.smsAuto
 let subject = groupMetadata.subject
 let descs = groupMetadata.desc || "😻 𝗦𝘂𝗽𝗲𝗿 𝗚𝗮𝘁𝗮𝗕𝗼𝘁-𝗠𝗗 😻";
 let userName = `${m.messageStubParameters[0].split`@`[0]}`;
-let defaultWelcome = `*╭┈⊰* ${subject} *⊰┈ ✦*\n*┊✨ BIENVENIDO(A)!!*\n┊💖 @${userName}\n┊📄 *LEA LA DESCRIPCIÓN DEL GRUPO*\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ✦*\n${descs}`;
+let defaultWelcome = `*╭┈⊰* ${subject} *⊰┈ ✦*\n*┊✨ BIENVENIDO(A)!!*\n┊ @${userName}\n┊📄 *LEA LA DESCRIPCIÓN DEL GRUPO*\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ✦*\n${descs}`;
 let textWel = chat.sWelcome ? chat.sWelcome
 .replace(/@user/g, `@${userName}`)
 .replace(/@group/g, subject) 
