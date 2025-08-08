@@ -42,9 +42,9 @@ https://discord.gg/zvKgtc2RBc
 https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g
 
 🗣📲 *Contacto:*
-• wa.me/5214531287294
-• wa.me/15167096032
-• wa.me/573147616444
+• wa.me/573132641948
+• wa.me/573132641948
+• wa.me/573132641948
 • https://www.facebook.com/elrebelde21
 
 No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojamiento. ¡Es fácil, rápido y económico! 💪🚀` 
@@ -52,10 +52,7 @@ No esperes más y lleva tu bot al siguiente nivel con nuestro servicio de alojam
 if (/^infohost$/i.test(m.text)) {
  await conn.sendMessage(m.chat, { text: txt,
 contextInfo:{
-forwardedNewsletterMessageInfo: { 
-newsletterJid: '120363301598733462@newsletter', 
-serverMessageId: '', 
-newsletterName: 'Sky-Ultra-Plus ☁️' }, 
+ 
 forwardingScore: 9999999,
 isForwarded: true, 
 "externalAdReply": {
@@ -128,7 +125,7 @@ return conn.reply(m.chat, `\`✨ ¿𝐐𝐮𝐞́ 𝐞𝐬 𝐮𝐧 𝐁𝐨𝐭
 🍃 *_Para ver el menú de comandos puedes usar:_*
 #menu
 
-🐈 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 🐈`, m)
+🐈 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳 🐈`, m)
 }  
 try {
 return
@@ -239,7 +236,7 @@ conn.reply(m.chat, `*╭┅〘 ⚠️ 𝗢𝗯𝗲𝗱𝗲𝗰𝗲 𝗹𝗮𝘀 
 ➽❌ 𝐏𝐫𝐨𝐡𝐢𝐛𝐢𝐝𝐨 𝐒𝐩𝐚𝐦 𝐚𝐥 𝐁𝐨𝐭
 ➽❌ 𝐍𝐨 𝐚𝐠𝐫𝐞𝐠𝐚𝐫 𝐚𝐥 𝐁𝐨𝐭
 ➽❌ 𝐑𝐞𝐬𝐩𝐞𝐭𝐚 𝐥𝐨𝐬 𝐭𝐞𝐫𝐦𝐢𝐧𝐨𝐬 𝐲 𝐜𝐨𝐧𝐝𝐢𝐜𝐢𝐨𝐧𝐞𝐬
-*╰═┅ৡৢ͜͡✦═╡ 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨 ╞═┅ৡৢ͜͡✦═╯*`, fkontak, m)
+*╰═┅ৡৢ͜͡✦═╡ 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳 ╞═┅ৡৢ͜͡✦═╯*`, fkontak, m)
 }
 return !0 
 }

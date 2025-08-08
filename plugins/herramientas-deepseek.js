@@ -1,7 +1,6 @@
 /// ౨ৎ ˖ ࣪⊹ 𝐂𝐫𝐞𝐚𝐝𝐨 𝐩𝐨𝐫 @Alba070503 𐙚˚.ᡣ𐭩
 
-//❀ Canal Principal ≽^•˕• ྀི≼
-///https://whatsapp.com/channel/0029VaAN15BJP21BYCJ3tH04
+
 
 import axios from 'axios'
 

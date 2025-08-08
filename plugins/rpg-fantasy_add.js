@@ -121,16 +121,16 @@ code: codigoImagen,
 })
 
 fs.writeFileSync(fantasyAddPath, JSON.stringify(fantasyAddData, null, 2), 'utf8')
-const reply = await conn.reply(m.chat, '> *¡Personaje agregado exitosamente!*\n\nResponde a este mensaje con "enviar" o "👍" sólo si deseas enviar los personajes a mis creadores para que lo agreguen en *GataBot*.', m)
+const reply = await conn.reply(m.chat, '> *¡Personaje agregado exitosamente!*\n\nResponde a este mensaje con "enviar" o "👍" sólo si deseas enviar los personajes a mis creadores para que lo agreguen en *𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳*.', m)
 
 handler.before = async function (m, { conn }) {
 if (m.quoted && m.quoted.id === reply.id && ['enviar', '👍'].includes(m.text.toLowerCase())) {
 const databaseFantasyAdd = Buffer.from(JSON.stringify(fantasyAddData, null, 2), 'utf-8')
 const jsonString = JSON.stringify(fantasyAddData, null, 2)
-await conn.reply('593968263524@s.whatsapp.net', `*Solicitud de @${m.sender.split("@")[0]} Para agregar personajes de Fantasy RPG en GataBot*`, null, { mentions: [m.sender] })
-await conn.sendMessage('593968263524@s.whatsapp.net', { document: databaseFantasyAdd, mimetype: 'application/json', fileName: `fantasyAdd_${m.sender}.json` }, { quoted: m })
-await conn.reply('593968263524@s.whatsapp.net', `${jsonString}`, m)
-await conn.reply(m.chat, `¡Archivo enviado a mis creadores! Sigue agregando más personajes que quieras que esten en GataBot`, m)
+await conn.reply('573132641948@s.whatsapp.net', `*Solicitud de @${m.sender.split("@")[0]} Para agregar personajes de Fantasy RPG en 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳*`, null, { mentions: [m.sender] })
+await conn.sendMessage('573132641948@s.whatsapp.net', { document: databaseFantasyAdd, mimetype: 'application/json', fileName: `fantasyAdd_${m.sender}.json` }, { quoted: m })
+await conn.reply('573132641948@s.whatsapp.net', `${jsonString}`, m)
+await conn.reply(m.chat, `¡Archivo enviado a mis creadores! Sigue agregando más personajes que quieras que esten en 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳`, m)
 }}  
 } catch (error) {
 console.error('Error al procesar la solicitud: ', error)

@@ -3,7 +3,7 @@ const palabras = [
   "conejo", "rana", "pulpo", "ardilla", "jirafa", "cocodrilo", "pingüino", 
   "delfín", "serpiente", "hámster", "mosquito", "abeja", "negro", "television", 
   "computadora", "botsito", "reggaeton", "economía", "electrónica", "facebook", 
-  "WhatsApp", "Instagram", "tiktok", "presidente", "bot", "películas", "gata", "gatabot"
+  "WhatsApp", "Instagram", "tiktok", "presidente", "bot", "películas", "gata", "𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳"
 ];
 
 const intentosMaximos = 6;

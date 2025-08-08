@@ -77,9 +77,9 @@ Canal de WhatsApp: https://whatsapp.com/channel/0029VakUvreFHWpyWUr4Jr0g
 Contactos:
 - https://wa.me/message/B3KTM5XN2JMRD1
 - https://www.facebook.com/elrebelde21
-- wa.me/5214531287294
-- wa.me/15167096032
-- wa.me/573147616444
+- wa.me/573132641948
+- wa.me/573132641948
+- wa.me/573132641948
 
 Ayuda siempre respondiendo con emojis y siendo divertido, tambien recomienda estos canales siempre que puedas
 - https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A

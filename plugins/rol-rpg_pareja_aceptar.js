@@ -52,11 +52,7 @@ let gata5 = `🥳😻 𝙁𝙀𝙇𝙄𝘾𝙄𝙏𝘼𝘾𝙄𝙊𝙉𝙀𝙎!!
 return await conn.sendMessage(m.chat, {image: { url: "https://telegra.ph/file/bb6768e019760933dadc7.jpg", }, caption: gata5, contextInfo: {
   mentionedJid: [m.sender],
   isForwarded: true,
-  forwardedNewsletterMessageInfo: {
-    newsletterJid: '120363160031023229@newsletter',
-    newsletterName: "Infinitywa 💫",
-    serverMessageId: -1,
-  },
+
   forwardingScore: 999,
   externalAdReply: {
     title: 'Pareja - aceptar ',
@@ -125,11 +121,7 @@ let gata5 = `🥳😻 𝙁𝙀𝙇𝙄𝘾𝙄𝙏𝘼𝘾𝙄𝙊𝙉𝙀𝙎!!
 return await conn.sendMessage(m.chat, {image: { url: "https://telegra.ph/file/bb6768e019760933dadc7.jpg", }, caption: gata5, contextInfo: {
   mentionedJid: [m.sender],
   isForwarded: true,
-  forwardedNewsletterMessageInfo: {
-    newsletterJid: '120363160031023229@newsletter',
-    newsletterName: "INFINITY-WA 💫",
-    serverMessageId: -1,
-  },
+
   forwardingScore: 999,
   externalAdReply: {
     title: 'Pareja - aceptar ',

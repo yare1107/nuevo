@@ -1,5 +1,5 @@
 // Código adaptado por https://github.com/GataNina-Li
-// Código compatible con canales y comunidades de WhatsApp 
+// Código adaptado por https://github.com/GataNina-Li 
 
 import { getUrlFromDirectPath } from "@whiskeysockets/baileys";
 import _ from "lodash";
@@ -7,12 +7,12 @@ import axios from 'axios';
 
 let handler = async (m, { conn, command, usedPrefix, args, text, groupMetadata, isOwner, isROwner }) => {
  const channelUrl = text?.match(/(?:https:\/\/)?(?:www\.)?(?:chat\.|wa\.)?whatsapp\.com\/(?:channel\/|joinchat\/)?([0-9A-Za-z]{22,24})/i)?.[1];
-let txtBotAdminCh = '\n\n> *Verifique que el Bot sea admin en el canal, de lo contrario no funcionará el comando*';
+
 let thumb = gataMenu.getRandom();
 let pp, ch, q, mime, buffer, media, inviteUrlch, imageBuffer;
 
 let inviteCode
-if (!text) return await m.reply(`*⚠️ Ingrese un enlace de un grupo/comunidad/canal de WhatsApp para obtener información.*`)
+if (!text) return await m.reply(`*⚠️ Ingrese un enlace de un grupo/comunidad de WhatsApp para obtener información.*`)
 const MetadataGroupInfo = async (res, isInviteInfo = false) => {
 let nameCommunity = "no pertenece a ninguna Comunidad"
 let groupPicture = "No se pudo obtener"
@@ -112,36 +112,7 @@ mediaType: 1,
 showAdAttribution: false,
 renderLargerThumbnail: false
 }}}, { quoted: fkontak })
-} else {
-// Manejo de enlaces de canales
-let newsletterInfo
-if (!channelUrl) return await conn.reply(m.chat, "*Verifique que sea un enlace de canal de WhatsApp.*", m)
-if (channelUrl) {
-try {
-newsletterInfo = await conn.newsletterMetadata("invite", channelUrl).catch(e => { return null })
-if (!newsletterInfo) return await conn.reply(m.chat, "*No se encontró información del canal.* Verifique que el enlace sea correcto.", m)       
-let caption = "*Inspector de enlaces de Canales*\n\n" + processObject(newsletterInfo, "", newsletterInfo?.preview)
-if (newsletterInfo?.preview) {
-pp = getUrlFromDirectPath(newsletterInfo.preview)
-} else {
-pp = thumb
 }
-if (channelUrl && newsletterInfo) {
-await conn.sendMessage(m.chat, { text: caption, contextInfo: {
-mentionedJid: conn.parseMention(caption),
-externalAdReply: {
-title: "📢 Inspector de Canales",
-body: packname,
-thumbnailUrl: pp,
-sourceUrl: args[0],
-mediaType: 1,
-showAdAttribution: false,
-renderLargerThumbnail: false
-}}}, { quoted: fkontak })}
-newsletterInfo.id ? conn.sendMessage(m.chat, { text: newsletterInfo.id }, { quoted: null }) : ''
-} catch (e) {
-reportError(e)
-}}}}
 handler.help = ["superinspect", "inspect"]
 handler.tags = ['tools'];
 handler.command = /^(superinspect|inspect|revisar|inspeccionar)$/i;
