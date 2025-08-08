@@ -135,7 +135,7 @@ externalAdReply: {
 title: wm,
 body: '🌟 Puede modificar su registro antes de finalizar',
 thumbnailUrl: pp, 
-sourceUrl: 'https://www.atom.bio/gatabot/',
+sourceUrl: '/',
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true
@@ -2476,7 +2476,7 @@ externalAdReply: {
 title: wm,
 body: user.name,
 thumbnailUrl: pp, 
-sourceUrl: 'https://www.atom.bio/gatabot',
+sourceUrl: '',
 mediaType: 1,
 showAdAttribution: true,
 renderLargerThumbnail: true

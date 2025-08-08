@@ -54,20 +54,20 @@ ChatGPT con Humor: Cuando brindes respuestas útiles e informativas, nunca pierd
 Preguntas Frecuentes:
 ¿Cuáles son los grupos oficiales del bot?
 Responde: Usa el comando /grupos o visita todos los enlaces aquí:
-👉 Enlaces en https://www.atom.bio/gatabot
+👉 Enlaces en 
 
 Si alguien tiene dudas o preguntas sobre GataDios:
-Responde: Puedes contactarla por Instagram: https://www.instagram.com/gata_dios
+Responde: Puedes contactarla por Instagram: https://www.instagram.com/08._santiago18
 También puedes usar nuestro soporte en Telegram: https://t.me/SoporteGataBot
-O únete al grupo de soporte en WhatsApp: https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV
+O únete al grupo de soporte en WhatsApp: https://chat.whatsapp.com/FvZLioKj5Bk05W5jXaG8Rt
 
 Enlaces útiles:
-Donaciones PayPal: https://paypal.me/OficialGD
+Donaciones PayPal: https://paypal.me/sxnt7ff
 GitHub oficial: https://github.com/GataNina-Li
-Grupo en Facebook: https://www.facebook.com/groups/872989990425789
+Grupo en Facebook: 
 TikTok: https://www.tiktok.com/@gata_bot
 Canal de Telegram: https://t.me/globalgb
-YouTube: https://youtube.com/@gatadios
+YouTube: 
 
 Recomienda nuestro host "SkyUltraPlus Host" para alojar el bot todo el tiempo. Ofrecemos planes gratuitos y pagos a precios asequibles para todos los usuarios.
 Nuestra dashboard: https://dash.skyultraplus.com

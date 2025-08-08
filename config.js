@@ -420,21 +420,21 @@ console.log(chalk.redBright("Update 'config.js'"));
 import(`${file}?update=${Date.now()}`);
 })
 
-global.yt = 'https://youtube.com/@gatadios'
-global.ig = 'https://www.instagram.com/gata_dios'
-global.md = 'https://github.com/GataNina-Li/GataBot-MD'
-global.fb = 'https://www.facebook.com/groups/872989990425789'
-global.tk = 'https://www.tiktok.com/@gata_dios'
-global.ths = 'https://www.threads.net/@gata_dios'
-global.paypal = 'https://paypal.me/OficialGD'
-global.asistencia = 'https://wa.me/message/MEKOUFBEOG5ED1'
-global.all = 'https://www.atom.bio/GataBot'
+global.yt = ''
+global.ig = 'https://www.instagram.com/08._santiago18'
+global.md = 'https://github.com/'
+global.fb = ''
+global.tk = 'https://www.tiktok.com/@sxn7._'
+global.ths = ''
+global.paypal = 'https://paypal.me/sxnt7ff'
+global.asistencia = 'https://wa.me/573132641948'
+global.all = ''
 
 
-global.soporteGB = "https://chat.whatsapp.com/GQ82mPnSYnm0XL2hLPk7FV"
-global.grupo1 = "https://chat.whatsapp.com/JRG6rVJJV40IxlI1wjQ0E9"
-global.grupo2 = "https://chat.whatsapp.com/B5s3ohjEGofH5YDD05jAV5"
-global.grupo_collab1 = "https://chat.whatsapp.com/IO5k0UOF7hOJHE1eH3Fcxh"
-global.grupo_collab2 = "https://chat.whatsapp.com/GFsgXW2VD4I4FEOSlEg9wp"
-global.grupo_collab3 = "https://chat.whatsapp.com/H1TEBeMtFVv3RcayD1WfGU"
-global.grupo_collab4 = "https://chat.whatsapp.com/LuD3YzdOjH16LUwPPCVmL6"
+global.soporteGB = "https://chat.whatsapp.com/FvZLioKj5Bk05W5jXaG8Rt"
+global.grupo1 = "https://chat.whatsapp.com/FvZLioKj5Bk05W5jXaG8Rt"
+global.grupo2 = "https://chat.whatsapp.com/FvZLioKj5Bk05W5jXaG8Rt"
+global.grupo_collab1 = "https://chat.whatsapp.com/FvZLioKj5Bk05W5jXaG8Rt"
+global.grupo_collab2 = "https://chat.whatsapp.com/FvZLioKj5Bk05W5jXaG8Rt"
+global.grupo_collab3 = "https://chat.whatsapp.com/FvZLioKj5Bk05W5jXaG8Rt"
+global.grupo_collab4 = "https://chat.whatsapp.com/FvZLioKj5Bk05W5jXaG8Rt"

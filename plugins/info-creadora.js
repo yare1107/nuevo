@@ -12,9 +12,9 @@ const cat = `𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳
 *---------------------*
 
 *CENTER 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳*
-*centergatabot@gmail.com*
+*fabersantiagoyt84@gmail.com*
 
-𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+SXN7 - ASISTENCIA
 *${asistencia}*
 
 *---------------------*
@@ -149,7 +149,7 @@ let name = await conn.getName(m.sender)
 let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 //------- Nombre
   let nowner = `${wm.split`@`[0]}@s.whatsapp.net`
-  let insta = `https://www.instagram.com/gata_dios`
+  let insta = `https://www.instagram.com/08._santiago18`
   let teksnomor = `
 • @${wm.split`@`[0]} •
 ------- ${wm} -------
@@ -163,8 +163,8 @@ Sxn7Botlite
 *wa.me/593993684821*
 *---------------------*
 *CENTER 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳*
-*centergatabot@gmail.com*
-𝙂𝘼𝙏𝘼 𝘿𝙄𝙊𝙎 - 𝘼𝙎𝙄𝙎𝙏𝙀𝙉𝘾𝙄𝘼
+*fabersantiagoyt84@gmail.com*
+SXN7 - ASISTENCIA
 *${asistencia}*`
   let teks = ' '
 const sections = [
