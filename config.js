@@ -103,7 +103,7 @@ global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.packname = `╭ 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳\n┃\n┃ » 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖:\n┃ @globalgb\n┃\n┃ » 𝚈𝚘𝚞𝚃𝚞𝚋𝚎:\n┃ @gatadios\n┃\n┃ » 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ @gata_dios\n╰━━━━━━━━•` //"𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳 "
-global.author = ` ╭ 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳\n ┃\n ┃ » 𝙶𝚒𝚝𝙷𝚞𝚋:\n ┃ GataNina-Li\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ┃ ♡ Apoyo\n ┃ » 𝙿𝚊𝚢𝙿𝚊𝚕:\n ┃ @OficialGD\n ╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
+global.author = ` ╭ 𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳\n ┃\n ┃ » 𝙶𝚒𝚝𝙷𝚞𝚋:\n ┃ GataNina-Li\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ┃ ♡ Apoyo\n ┃ » 𝙿𝚊𝚢𝙿𝚊𝚕:\n ┃ @OficialGD\n ╰━━━━━━━━•` //"�𝐨𝐭 𝐕𝐞𝐧𝐭𝐚�������"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -138,7 +138,7 @@ global.eg = '╰⊱💚⊱ *𝙀́𝙓𝙄𝙏𝙊 | 𝙎𝙐𝘾𝘾𝙀𝙎�
 global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
-global.wm = "𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
+global.wm = "𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳"
 global.igfg = "𝐁𝐨𝐭 𝐕𝐞𝐧𝐭𝐚𝐬𝐏𝐞𝐫𝐳𝐳𝐳"
 global.nomorown = "573132641948"
 global.pdoc = ["application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/vnd.ms-excel", "application/msword", "application/pdf", "text/rtf"]
