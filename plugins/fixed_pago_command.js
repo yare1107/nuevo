@@ -61,7 +61,7 @@ let handler = async (m, { conn }) => {
 
 handler.help = ['pago']
 handler.tags = ['owner', 'info'] 
-handler.command = ['pago', 'payment', 'donate'] 
+handler.command = ['formapagoperez'] 
 handler.register = true
 
 export default handler
